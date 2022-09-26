@@ -1,0 +1,254 @@
+/* common class start */
+/* for custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    padding: 0px;
+}
+p, a, li, span, small{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.w-100{
+    width: 100%;
+}
+.w-70{
+    width: 70%;
+}
+.w-50{
+    width: 50%;
+}
+.w-30{
+    width: 30%;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{width: 40%;}
+.my-20{
+    margin: 20px 0px;
+}
+/* common class end */
+/* nav section start */
+.nav-section{
+    background: rgba(212, 215, 19, 0.595);
+    line-height: 3;
+}
+.nav-container{
+    display: flex;
+}
+.logo{
+    width: 15%;
+}
+.logo h1{
+    font-size: 20px;
+}
+.navbar{
+    width: 85%;
+}
+ul.nav{
+    display: flex;
+    /* justify-content: space-between; */
+    line-height: 4;
+}
+ul.nav li.nav-item{
+
+}
+ul.nav li.nav-item a{
+    font-size: 16px;
+    padding: 0px 15px;
+    display: block;
+    color: rgba(0,0,0, .7);
+    transition: .5s all;
+}
+ul.nav li.nav-item:hover a{
+    color: rgba(0,0,0, 1);
+}
+ul.nav li.nav-item a span{
+    color: #fff;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 0px 4px;
+    background: #7832e2;
+}
+ul.nav li.nav-item:last-child{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+ul.nav li.nav-item:last-child a{
+    color: #03a87c;
+    padding: 0px 20px;
+    display: block;
+    line-height: 2;
+    border-radius: 5px;
+    border: 1px solid #03a87c;
+    transition: .5s all;
+}
+ul.nav li.nav-item:last-child:hover a{
+    color: #fff;
+    background: #03a87c;
+}
+/* nav section end */
+
+/* header section start */
+.header-container{
+    display: flex;
+}
+.header-container .header-content{
+    width: 50%;
+    padding: 70px 40px;
+    background: #0aa03c;
+}
+.header-container .header-content h2{
+    font-size: 40px;
+    color: #212529;
+}
+.header-container .header-content p{
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+}
+.header-container .header-content a{
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+    background: #111212;
+}
+.header-container .header-poster{
+    width: 50%;
+}
+/* header section end */
+
+/* main section start */
+.main-section{
+    margin: 40px 0px;
+}
+.main-container article img{
+    height: auto;
+}
+.main-container article{
+    padding-right: 30px;
+}
+.main-container article h3{
+    margin-top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .5s all;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main-container article h3:hover{
+    color: #03a87c;
+}
+.main-container article p{
+    font-size: 16px;
+    color: #212529;
+    line-height: 1.5;
+}
+.main-container article small{
+    font-size: 14px;
+    color: #6c757d;
+    line-height: 1.5;
+    display: block;
+}
+.blog-content-area .blog-poster{
+    padding-right: 20px;
+}
+.blog-content-area .blog-content h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.blog-content-area .blog-content h4 a{
+    color: #000000;
+    transition: .5s;
+}
+.blog-content-area .blog-content h4:hover a{
+    color: #03a87c;
+    text-decoration: underline;
+}
+.blog-content-area .blog-content small{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #6c757d;
+    display: block;
+}
+/* main section end */
+.block{
+    display: block;
+}
+.stories .stories-content h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.stories .stories-content h2 a{
+    color: #000000;
+    transition: .5s;
+}
+.stories .stories-content h2:hover a{
+    color: #03a87c;
+    text-decoration: underline;
+}
+.stories .stories-content  small{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #6c757d;
+    display: block;
+}
+.stories .stories-content  p{
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: #212529;
+}
+.stories .stories-poster{
+    padding-left: 20px;
+}
+.stories .stories-poster img{
+    height: auto;
+}
+.stories-container aside ul{
+    counter-reset: li-count;
+}
+.stories-container aside ul li::before{
+    counter-increment: li-count;
+    content: counter(li-count, decimal-leading-zero);
+    display: inline-block;
+
+}
+.stories-container aside ul h4
+
+
